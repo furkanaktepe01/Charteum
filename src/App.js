@@ -79,7 +79,7 @@ const App = () => {
 
   const dataify = (name, state) => {
 
-    return Array(parseInt(range)).fill(null).map((v, i) => { return { block: oldestBlock + i, [name]: state[i] } });
+    return Array(parseInt(range)).fill(null).map((v, i) => { return { block: parseInt(oldestBlock) + i, [name]: state[i] } });
   }
 
   return (
