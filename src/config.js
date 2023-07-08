@@ -1,6 +1,6 @@
 const { Network, Alchemy } = require("alchemy-sdk");
 
-export const apiKey = "rnIswm-I5NMa9WvzxReFEbJb2Ajc9iiS";
+const apiKey = "rnIswm-I5NMa9WvzxReFEbJb2Ajc9iiS";
 
 const settings = {
   apiKey, 

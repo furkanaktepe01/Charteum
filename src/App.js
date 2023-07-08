@@ -5,7 +5,7 @@ import { Utils } from "alchemy-sdk";
 import Navbar from "./components/Navbar";
 import Chart from "./components/Chart";
 import { useEffect, useState } from "react";
-import { apiKey, alchemy } from "./config";
+import { alchemy } from "./config.js";
 
 const App = () => {
 
